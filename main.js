@@ -341,15 +341,166 @@ var rewriteList3=[
     "http://www.chicandbasic.com/hotel-barcelona-zoo/ca/localitzacio-hotel-ciutadella-zoo",
     "http://www.chicandbasic.com/hotel-barcelona-zoo/ca/localitzacio/"];
 
+var rewriteList4 = [
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-buchung-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-doppel-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-doppel-spezial-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-galerie-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-garten-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/de-geschichte-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/de-junior-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-kleine-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/contact",
+    "https://www.elcorsario-ibiza.com/de-kontakt-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-luxus-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-zimmer-hotel-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/contact",
+    "https://www.elcorsario-ibiza.com/en-contact-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-double-special-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/estandar",
+    "https://www.elcorsario-ibiza.com/en-double-standard-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-gallery-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-garden-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/en-history-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/en-junior-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-luxury-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-reservation-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/en-rooms-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-small-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/contact",
+    "https://www.elcorsario-ibiza.com/es-contacto-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-elcorsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-galeria-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/estandar",
+    "https://www.elcorsario-ibiza.com/es-habitacion-doble-dtandard-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/es-habitaciones-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-habitacion-especial-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/es-historia-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-reserva-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-suite-jardin-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/es-suite-junior-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-suite-lujo-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/es-suite-pequena-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/index.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-buchung-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-doppel-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-doppel-spezial-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/de-galerie-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-garten-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/de-geschichte-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/de-junior-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-kleine-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/contact",
+    "https://www.elcorsario-ibiza.com/de-kontakt-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/de-luxus-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/de-zimmer-hotel-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/contact",
+    "https://www.elcorsario-ibiza.com/en-contact-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-double-special-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/estandar",
+    "https://www.elcorsario-ibiza.com/en-double-standard-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-gallery-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-garden-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/en-history-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/en-junior-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-luxury-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/home",
+    "https://www.elcorsario-ibiza.com/en-reservation-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/en-rooms-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/en/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/en-small-suite-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/contact",
+    "https://www.elcorsario-ibiza.com/es-contacto-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-elcorsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-galeria-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/estandar",
+    "https://www.elcorsario-ibiza.com/es-habitacion-doble-dtandard-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/es-habitaciones-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-habitacion-especial-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/historia",
+    "https://www.elcorsario-ibiza.com/es-historia-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/es-reserva-el-corsario.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-suite-jardin-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/juniorsuite",
+    "https://www.elcorsario-ibiza.com/es-suite-junior-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/suite",
+    "https://www.elcorsario-ibiza.com/es-suite-lujo-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/page/habitaciones/",
+    "https://www.elcorsario-ibiza.com/es-suite-pequena-el-corsario-ibiza.html",
+    "https://www.elcorsario-ibiza.com/es/#!/home",
+    "https://www.elcorsario-ibiza.com/index.html"
+];
     var url = require("url");
 
     function escapeRegExp(str) {
         return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
     }
 
-    var rewritesRaw=[].concat(rewriteList1,rewriteList2,rewriteList3);
+    //var rewritesRaw=[].concat(rewriteList1,rewriteList2,rewriteList3);
+    var rewritesRaw=[].concat(rewriteList4);
     var rewritesPairs=[];
-    var mainDomain="www.chicandbasic.com";
+    var mainDomain="elcorsario-ibiza.com";
     var fs = require('fs');
 
     var c=0;
@@ -359,10 +510,14 @@ var rewriteList3=[
         newURL= url.parse(newURL,true,true);
         oldURL= url.parse(oldURL,true,true);
         if(oldURL.hostname!=mainDomain){
-            rewritesPairs.push("RewriteCond %{HTTP_HOST} ^"+escapeRegExp(oldURL.hostname)+"$");
+            rewritesPairs.push("RewriteCond %{HTTP_HOST} "+escapeRegExp(oldURL.hostname)+"$");
         }
-        var oldURLRegex="^"+escapeRegExp(oldURL.pathname.substring(1))+"\/?$ ";
-        var newURLRegex=escapeRegExp(newURL.pathname)+" [R,L] ";
+
+        var oldPathname=(oldURL.path ? oldURL.path : "") + (oldURL.hash ? oldURL.hash : "");
+        var newPathname=(newURL.path ? newURL.path : "") + (newURL.hash ? newURL.hash : "");
+
+        var oldURLRegex=""+escapeRegExp(oldPathname.substring(1))+"\/?$ ";
+        var newURLRegex=escapeRegExp(newPathname)+" [NE,R=301,L] ";
         var rewriteRule="RewriteRule "+oldURLRegex+" "+newURLRegex;
         rewritesPairs.push(rewriteRule);
     }
